@@ -54,7 +54,7 @@ def platinum_curfew_checker(current_time, curfew_time)
   elsif current_time == curfew_time
    return "Time to apparate!"
  else
-   return "You have #{curfew_time - current_time} hour(s) to keep having fun!"
+   return "You have #{curfew_time - current_time} hour(s) left to keep having fun!"
  end
 end
   platinum_curfew_checker(9, 11)

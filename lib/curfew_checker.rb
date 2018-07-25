@@ -21,22 +21,22 @@ def complex_curfew_checker(time)
   end
 end
 
-complex_curfew_checker(9)
-complex_curfew_checker(11)
-complex_curfew_checker(15)
+# complex_curfew_checker(9)
+# complex_curfew_checker(11)
+# complex_curfew_checker(15)
 
-# def deluxe_curfew_checker(time, curfew = 11)
-#   if time < curfew
-#     puts "You have "
-#   elsif time - curfew == 0
-#     puts "You're in trouble! Better get home quick!"
-#   else time > curfew 
-#     puts "You're in trouble! Better get home quick!"
-#   end
-# end
+def deluxe_curfew_checker(time, curfew = 11)
+  if time < curfew
+    puts "You have "
+  elsif time - curfew == 0
+    puts "You're in trouble! Better get home quick!"
+  else time > curfew 
+    puts "You're in trouble! Better get home quick!"
+  end
+end
 
-# deluxe_curfew_checker(11)
-# deluxe_curfew_checker(15)
+deluxe_curfew_checker(11)
+deluxe_curfew_checker(15)
 
 # def platinum_curfew_checker(current_time, curfew_time)
 #   # code goes here

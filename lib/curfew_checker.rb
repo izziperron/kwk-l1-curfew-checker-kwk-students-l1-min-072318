@@ -1,8 +1,8 @@
 def simple_curfew_checker(time)
   if time >= 11
-    puts "You're in trouble! Better get home quick!"
+    return "You're in trouble! Better get home quick!"
   else
-    puts "Keep having fun until curfew!"
+    return "Keep having fun until curfew!"
   end
 end
 

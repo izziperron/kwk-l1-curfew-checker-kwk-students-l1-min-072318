@@ -5,7 +5,7 @@ def simple_curfew_checker(time)
 end
 
 def curfew_checker(time)
-  # code goes here
+  
 end
 
 def complex_curfew_checker(time)
@@ -30,6 +30,10 @@ def deluxe_curfew_checker(time, curfew = 11)
   else time > curfew 
     puts "You're in trouble! Better get home quick!"
   end
+end
+
+deluxe_curfew_checker(11)
+deluxe_curfew_checker(15)
 
 def platinum_curfew_checker(current_time, curfew_time)
   # code goes here

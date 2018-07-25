@@ -39,7 +39,7 @@ def deluxe_curfew_checker(time, curfew = 11)
     puts "You have #{curfew - time} hours to keep having fun"
   elsif time == 11
     puts "Time to apparate!"
-  else time > 11 
+  else 
     puts "You're in trouble! Better get home quick!"
   end
 end

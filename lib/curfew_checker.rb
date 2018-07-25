@@ -1,8 +1,6 @@
 def simple_curfew_checker(time)
   if time >= 11
     return "You're in trouble! Better get home quick!"
-  else
-    return "Keep having fun until curfew!"
   end
 end
 
@@ -15,7 +13,7 @@ def curfew_checker(time)
   elsif time > 11
   return "You're in trouble! Better get home quick!"
   else 
-    return "you can keep having fun"
+    return "Keep having fun!"
   end
 end
 curfew_checker(9)
@@ -38,7 +36,7 @@ complex_curfew_checker(12)
 
 def deluxe_curfew_checker(time, curfew = 11)
   if time < curfew
-    return "You have #{curfew - time} hours to keep having fun"
+    return "You have #{curfew - time} hour(s) left to keep having fun!"
   elsif time == 11
     return "Time to apparate!"
   else 
@@ -52,11 +50,11 @@ deluxe_curfew_checker(12)
 
 def platinum_curfew_checker(current_time, curfew_time)
   if current_time > curfew_time
-    return "You're in trouble! Better get home quick!"
+    return "You're in trouble! Better get back to Hogwarts quick!"
   elsif current_time == curfew_time
    return "Time to apparate!"
  else
-   return "Keep having fun until curfew!"
+   return "You have #{curfew_time - current_time} hour(s) to keep having fun!"
  end
 end
   platinum_curfew_checker(9, 11)

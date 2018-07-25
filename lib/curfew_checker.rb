@@ -21,7 +21,7 @@ def complex_curfew_checker(time)
   end
 end
 
-complex_curfew_checker(10)
+complex_curfew_checker(9)
 complex_curfew_checker(11)
 complex_curfew_checker(15)
 
